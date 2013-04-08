@@ -34,4 +34,4 @@ module Responders
   end
 end
 
-ActionController::Base.extend Responders::ControllerMethod
+ActionController::API.extend Responders::ControllerMethod
