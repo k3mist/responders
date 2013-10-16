@@ -1,9 +1,8 @@
-require 'rubygems'
 require 'bundler'
 
 Bundler.setup
 require 'test/unit'
-require 'mocha'
+require 'mocha/setup'
 
 # Configure Rails
 ENV["RAILS_ENV"] = "test"
